@@ -1,0 +1,88 @@
+*{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+main {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #3498db;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+main h2{
+    padding: 15px;
+}
+
+#sidebar {
+    flex: 0 0 200px; 
+    background-color: #fff;
+    padding: 10px;
+    color: #fff;
+}
+
+#searchbar {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#searchbutton {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#rightcontent {
+    flex: 1; 
+    padding: 20px;
+}
+
+.box {
+    width: 100%;
+    background-color: #fff;
+    color: black;
+    text-align: left;
+    border: 2px solid black; 
+    padding: 20px;
+}
+
+.dates{
+    padding:20px;
+    font-weight: bold;
+}
+
+#rightcontent h3{
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+.card {
+    width: 15%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    padding: 10px;
+}
