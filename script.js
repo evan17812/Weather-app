@@ -4,7 +4,7 @@ var day = dayjs().format('MM/DD/YYYY');
 
 function getcityinfo(){
     var city = $("#searchbar").val();
-    var cityapiurl = 'http://api.openweathermap.org/geo/1.0/direct?q='+city+'&limit=1&appid='+apikey
+    var cityapiurl = 'https://api.openweathermap.org/geo/1.0/direct?q='+city+'&limit=1&appid='+apikey
    
     fetch(cityapiurl)
     .then(response => {
